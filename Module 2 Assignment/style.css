@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gloria Hallelujah";
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.padding-container {
+    float: left;
+    padding: 15px;
+}
+
+
+/* for mobile devices */
+
+.container {
+    border: 3px solid black;
+    background: lightgray;
+    font-weight: bold;
+    height: 200px;
+    overflow: auto;
+}
+
+.menu-heading-container {
+    text-align: right;
+}
+
+.menu-heading {
+    padding: 0px 4px 4px 4px;
+    border: 2px solid black;
+}
+
+.description {
+    padding: 5px;
+}
+
+#menu-1 {
+    background-color: plum;
+}
+
+#menu-2 {
+    background-color: saddlebrown;
+    color: white;
+}
+
+#menu-3 {
+    background-color: slateblue;
+    color: white;
+}
+
+
+/* for tablet like devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .padding-container {
+        float: left;
+        width: 50%;
+    }
+    .frame .padding-container:nth-child(3) {
+        width: 100%;
+    }
+}
+
+
+/* for desktops */
+
+@media (min-width: 992px) {
+    .padding-container {
+        float: left;
+        width: 33.33%;
+    }
+}

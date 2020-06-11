@@ -1,0 +1,81 @@
+#navigation-bar {
+    background-color: lightgray;
+}
+
+#navigation-bar .navbar-brand {
+    font-family: "Metal Mania";
+    font-size: 1.8em;
+}
+
+#menus .nav-link {
+    font-family: "Balsamiq Sans";
+    text-align: center;
+    font-weight: 500;
+}
+
+#menu,
+#chicken-biriyani,
+#mutton-dum-biriyani,
+#hamburger {
+    text-align: center;
+    font-family: "Balsamiq Sans";
+}
+
+#chicken-biriyani,
+#mutton-dum-biriyani,
+#hamburger {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 1px #000;
+    padding: 10px;
+}
+
+#mutton-dum-biriyani,
+#hamburger {
+    color: white;
+}
+
+#menu {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#chicken-biriyani p:nth-child(1),
+#mutton-dum-biriyani p:nth-child(1),
+#hamburger p:nth-child(1) {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#chicken-biriyani p:nth-child(2),
+#mutton-dum-biriyani p:nth-child(2),
+#hamburger p:nth-child(2) {
+    text-align: left;
+}
+
+#chicken-biriyani {
+    background-color: plum;
+}
+
+#mutton-dum-biriyani {
+    background-color: saddlebrown;
+}
+
+#hamburger {
+    background-color: slateblue;
+}
+
+.link-to-menu {
+    text-decoration: none;
+    color: red;
+}
+
+@media (min-width: 768px) {
+    #chicken-biriyani,
+    #mutton-dum-biriyani,
+    #hamburger {
+        max-height: 600px;
+        overflow: auto;
+    }
+}
